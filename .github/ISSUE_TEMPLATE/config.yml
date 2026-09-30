@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🧰 Live Web Workbench
+    url: https://toolbox.vishnudigital.com
+    about: Access 42+ zero-telemetry, air-gapped web utilities running 100% in local browser RAM.
+  - name: 📖 Authoritative Engineering Guides
+    url: https://blog.toolbox.vishnudigital.com
+    about: Read deep RFC breakdowns, AEO tutorials, and cryptographic specifications from Toolbox Blog.
+  - name: 🛡️ Security Vulnerability Reporting
+    url: https://github.com/toolbox/toolbox-community/security/policy
+    about: Please report security vulnerabilities privately to contact@toolbox.vishnudigital.com rather than opening public issues.

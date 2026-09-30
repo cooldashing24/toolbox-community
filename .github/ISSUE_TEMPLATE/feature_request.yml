@@ -1,0 +1,46 @@
+name: 💡 Tool or Feature Request
+description: Suggest a new developer utility, AST converter, or privacy tool for Toolbox
+labels: ["enhancement", "tool-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Toolbox! We build global, 100% client-side, air-gapped web utilities running entirely in browser RAM.
+  - type: input
+    id: tool_name
+    attributes:
+      label: Tool Name / Concept
+      placeholder: e.g., Protobuf to JSON Inspector
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the engineering friction, compliance challenge, or production failure this tool addresses.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Functionality & UX
+      description: Describe the desired input formats, controls, transformations, and output representations.
+    validations:
+      required: true
+  - type: dropdown
+    id: client_side_feasibility
+    attributes:
+      label: Can this run 100% in browser RAM?
+      description: All Toolbox utilities must execute without server communication or telemetry.
+      options:
+        - "Yes, can run via WebCrypto / WASM / JavaScript in browser RAM"
+        - "Unsure"
+    validations:
+      required: true
+  - type: checkboxes
+    id: guidelines_check
+    attributes:
+      label: Community Standards
+      options:
+        - label: "I have verified that no confidential keys, credentials, or proprietary PII are included in this issue."
+          required: true
