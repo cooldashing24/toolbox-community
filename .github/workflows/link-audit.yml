@@ -31,5 +31,5 @@ jobs:
             --timeout 15 \
             --max-retries 3 \
             --exclude-mail \
-            --exclude "https://github.com/toolbox/toolbox-community/.*" \
+            --exclude "https://github.com/cooldashing24/toolbox-community/.*" \
             README.md docs/**/*.md

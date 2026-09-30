@@ -1,7 +1,7 @@
 # Downstream Developer Recipe: Translating Chrome DevTools cURL to Modern TypeScript Fetch
 
 > **Toolbox Resource**: [cURL to Code Converter](https://toolbox.vishnudigital.com/curl)  
-> **Companion Engineering Guide**: [cURL to Code Converter & Request Translation Guide](https://blog.toolbox.vishnudigital.com/curl-to-code-converter-guide/)  
+> **Companion Engineering Guide**: [HTTP Security Headers Hardening Guide](https://blog.toolbox.vishnudigital.com/http-security-headers-hardening-guide/)  
 > **Author**: Toolbox Engineering Team (`contact@toolbox.vishnudigital.com`)
 
 ---

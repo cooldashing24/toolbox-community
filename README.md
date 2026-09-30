@@ -8,7 +8,7 @@
 [![Zero Telemetry](https://img.shields.io/badge/Privacy-100%25%20Client--Side%20RAM-success?style=flat-square)](https://toolbox.vishnudigital.com/privacy)
 [![WebCrypto API](https://img.shields.io/badge/WebCrypto-W3C%20Standard-blueviolet?style=flat-square)](https://www.w3.org/TR/WebCryptoAPI/)
 
-**[Explore Live Tools](https://toolbox.vishnudigital.com) • [Engineering Guides](https://blog.toolbox.vishnudigital.com) • [Request a Tool](https://github.com/toolbox/toolbox-community/issues/new/choose) • [Report a Bug](https://github.com/toolbox/toolbox-community/issues/new/choose)**
+**[Explore Live Tools](https://toolbox.vishnudigital.com) • [Engineering Guides](https://blog.toolbox.vishnudigital.com) • [Request a Tool](https://github.com/cooldashing24/toolbox-community/issues/new/choose) • [Report a Bug](https://github.com/cooldashing24/toolbox-community/issues/new/choose)**
 
 </div>
 
@@ -35,9 +35,10 @@ Under **SOC2, HIPAA, GDPR, and ISO 27001**, corporate security policies strictly
 | :--- | :--- | :--- | :--- |
 | **Auth & Security** | [JWT Token Inspector](https://toolbox.vishnudigital.com/jwt-decoder) | [JWT Claims & Security Guide](https://blog.toolbox.vishnudigital.com/jwt-security-101-decode-inspect-claims-guide/) | • 2 AM auth outage triages without cloud secret leaks.<br>• Auditing OIDC `iss` & `aud` claims before deploying route guards.<br>• Investigating `RS256` to `HS256` Key Confusion vulnerabilities. |
 | **Regex & Parsing** | [RegEx Tester & Group Matcher](https://toolbox.vishnudigital.com/regex-tester) | [ReDoS Prevention Guide](https://blog.toolbox.vishnudigital.com/regex-backtracking-redos-prevention-guide/) | • Pre-deploy audits detecting $2^{n-1}$ catastrophic backtracking loops.<br>• Character offset span & named capture group visualization.<br>• Testing patterns against confidential customer logs safely in browser RAM. |
-| **API Translation** | [cURL to Code Converter](https://toolbox.vishnudigital.com/curl) | [cURL Automated Translation Guide](https://blog.toolbox.vishnudigital.com/curl-to-code-converter-guide/) | • Converting Chrome DevTools "Copy as cURL" into Go/Python/Rust client code.<br>• Translating complex Bearer tokens without leaking secrets to 3rd-party loggers.<br>• Eliminating Windows PowerShell quote escaping errors. |
-| **AI & LLM Ops** | [LLM JSON Output Healer](https://toolbox.vishnudigital.com/json-repair) | [LLM JSON Repair & Truncation Guide](https://blog.toolbox.vishnudigital.com/llm-json-repair-guide/) | • Rescuing truncated JSON arrays severed by model `max_tokens` ceilings.<br>• Stripping DeepSeek `<think>` reasoning preambles before DB insertion.<br>• Normalizing LangChain Python dict dumps (`None`/`True`/`False`). |
-| **Type Safety** | [JSON Schema to TypeScript & Zod](https://toolbox.vishnudigital.com/json-schema-to-typescript) | [Type Safety & Contract Drift Guide](https://blog.toolbox.vishnudigital.com/json-schema-to-typescript-zod-guide/) | • Protecting API ingestion boundaries with runtime Zod validation.<br>• Eliminating contract drift between backend schemas and frontend types.<br>• Generating type-checked Stripe and Shopify webhook event handlers. |
+| **Data & JSON AST** | [JSON Formatter & Validator](https://toolbox.vishnudigital.com/json-formatter) | [JSON Formatting & AST Validation Guide](https://blog.toolbox.vishnudigital.com/how-to-format-validate-json-online/) | • Formats, validates, and minifies massive JSON structures in memory.<br>• Hierarchical node navigation without uploading payload to cloud servers.<br>• Detects syntax errors, missing delimiters, and unescaped quotes instantly. |
+| **Cryptography** | [Multi-Algorithm Hash Generator](https://toolbox.vishnudigital.com/hash-generator) | [Cryptographic Hash Verification Guide](https://blog.toolbox.vishnudigital.com/how-to-generate-sha256-md5-hashes-online/) | • Computes MD5, SHA-1, SHA-256, SHA-512, and HMAC signatures in browser RAM.<br>• Client-side file checksum validation against release hashes without uploads.<br>• Instant hex and Base64 digest generation. |
+| **Distributed IDs** | [UUID v4 & v7 Identifier Generator](https://toolbox.vishnudigital.com/uuid-generator) | [UUID Collision & Timestamp Guide](https://blog.toolbox.vishnudigital.com/understanding-uuid-v4-vs-v7-generation-guide/) | • Generates RFC 4122 v4 random and RFC 9562 v7 time-ordered UUIDs.<br>• Database index B-Tree locality optimization with millisecond timestamp prefixes.<br>• Zero collision risk for distributed database keys and batch creation. |
+| **Cloud Networking** | [Subnet Calculator Online](https://toolbox.vishnudigital.com/subnet-calculator) | [IPv4 Subnets & CIDR Blocks Guide](https://blog.toolbox.vishnudigital.com/how-to-calculate-ipv4-subnets-cidr-blocks-guide/) | • Calculates IPv4 & IPv6 subnet boundaries, CIDR prefixes, and wildcard masks.<br>• Visual 32-bit bitmask matrix and usable host range calculations.<br>• Cloud VPC architecture planning (AWS, GCP, Azure). |
 | **Data Pipelines** | [HTML to Markdown AST Studio](https://toolbox.vishnudigital.com/html-to-markdown) | [HTML to Markdown AST Pipeline Guide](https://blog.toolbox.vishnudigital.com/html-to-markdown-ast-pipeline-guide/) | • Stripping 60–78% non-semantic HTML boilerplate from web scrapes for RAG.<br>• Converting messy Google Docs or Confluence tables into GFM.<br>• Processing internal confidential documentation with zero server uploads. |
 
 ---
@@ -282,8 +283,8 @@ Under **SOC2, HIPAA, GDPR, and ISO 27001**, corporate security policies strictly
 
 ## 💡 Community & Support
 
-* **Feature Requests**: Have a developer utility you'd love to see in Toolbox? [Submit a Tool Request](https://github.com/toolbox/toolbox-community/issues/new?template=feature_request.yml).
-* **Bug Reports**: Found an edge case with one of our client-side tools? [Open an Issue](https://github.com/toolbox/toolbox-community/issues/new?template=bug_report.yml).
+* **Feature Requests**: Have a developer utility you'd love to see in Toolbox? [Submit a Tool Request](https://github.com/cooldashing24/toolbox-community/issues/new?template=feature_request.yml).
+* **Bug Reports**: Found an edge case with one of our client-side tools? [Open an Issue](https://github.com/cooldashing24/toolbox-community/issues/new?template=bug_report.yml).
 * **Security & Vulnerability Disclosure**: Please review our [Security Policy](SECURITY.md) to report vulnerabilities privately.
 
 ---

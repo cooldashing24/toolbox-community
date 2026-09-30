@@ -1,7 +1,7 @@
 # Downstream Developer Recipe: Zod Webhook Validation & Contract Drift Prevention
 
 > **Toolbox Resource**: [JSON Schema to TypeScript & Zod](https://toolbox.vishnudigital.com/json-schema-to-typescript)  
-> **Companion Engineering Guide**: [JSON Schema to TypeScript & Zod Guide](https://blog.toolbox.vishnudigital.com/json-schema-to-typescript-zod-guide/)  
+> **Companion Engineering Guide**: [HMAC Webhook Signature Verification Guide](https://blog.toolbox.vishnudigital.com/hmac-sha256-webhook-signature-verification-guide/)  
 > **Author**: Toolbox Engineering Team (`contact@toolbox.vishnudigital.com`)
 
 ---

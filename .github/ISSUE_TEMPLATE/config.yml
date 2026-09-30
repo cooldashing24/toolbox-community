@@ -7,5 +7,5 @@ contact_links:
     url: https://blog.toolbox.vishnudigital.com
     about: Read deep RFC breakdowns, AEO tutorials, and cryptographic specifications from Toolbox Blog.
   - name: 🛡️ Security Vulnerability Reporting
-    url: https://github.com/toolbox/toolbox-community/security/policy
+    url: https://github.com/cooldashing24/toolbox-community/security/policy
     about: Please report security vulnerabilities privately to contact@toolbox.vishnudigital.com rather than opening public issues.

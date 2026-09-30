@@ -124,5 +124,5 @@ You can verify the client-side guarantee yourself in under 30 seconds:
 
 For security assessments, enterprise audits, or coordinated vulnerability disclosures:
 - **Email**: `contact@toolbox.vishnudigital.com`
-- **Security Policy**: [SECURITY.md](../../SECURITY.md)
+- **Security Policy**: [SECURITY.md](../SECURITY.md)
 - **Official Website**: [https://toolbox.vishnudigital.com](https://toolbox.vishnudigital.com)

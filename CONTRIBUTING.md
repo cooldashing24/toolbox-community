@@ -29,15 +29,15 @@ When proposing new tools or submitting community recipes:
 
 ### 💡 Requesting a New Tool
 Have an idea for a client-side developer utility?
-1. Check existing tools on [Toolbox](https://toolbox.vishnudigital.com) and the [Issue Tracker](https://github.com/toolbox/toolbox-community/issues).
-2. Open a **[Tool Request](https://github.com/toolbox/toolbox-community/issues/new?template=feature_request.yml)** detailing:
+1. Check existing tools on [Toolbox](https://toolbox.vishnudigital.com) and the [Issue Tracker](https://github.com/cooldashing24/toolbox-community/issues).
+2. Open a **[Tool Request](https://github.com/cooldashing24/toolbox-community/issues/new?template=feature_request.yml)** detailing:
    - The developer friction or production failure it solves.
    - The proposed inputs, options, and outputs.
    - How it can execute 100% in browser RAM.
 
 ### 🐛 Reporting Bugs
 Found an edge case with a parser, regex engine, or crypto tool?
-1. Open a **[Bug Report](https://github.com/toolbox/toolbox-community/issues/new?template=bug_report.yml)**.
+1. Open a **[Bug Report](https://github.com/cooldashing24/toolbox-community/issues/new?template=bug_report.yml)**.
 2. Include your browser engine, operating system, and a sanitized test payload that reproduces the issue.
 
 ### 📝 Submitting a Downstream Recipe
