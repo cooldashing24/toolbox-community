@@ -1,9 +1,9 @@
-name: Nightly Link & Route Audit
+name: Post-Deploy Link & Route Audit
 
 on:
-  schedule:
-    # Run every morning at 04:00 UTC (09:30 AM IST)
-    - cron: '0 4 * * *'
+  # Sent by cooldashing24/toolbox deploy-hostinger.yml after a successful production deploy
+  repository_dispatch:
+    types: [production-deployed]
   workflow_dispatch:
   pull_request:
     paths:
